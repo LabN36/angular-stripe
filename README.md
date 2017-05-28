@@ -67,14 +67,14 @@ Same as [`stripeProvider.setPublishableKey`](#stripeprovidersetpublishablekeykey
 
 ##### `stripe.card.createToken(card [, params])` -> `promise`
  
-Tokenizes a card using [`Stripe.card.createToken`](https://stripe.com/docs/stripe.js#card-createToken). You can optionally pass a `key` property under `params` to use a different publishable key than the default to create that token. This is especially useful for applications using [Stripe Connect](https://stripe.com/connect).
+Tokenizes a card using [`Stripe.card.createToken`](https://stripe.com/docs/stripe.js/v2#card-createToken). You can optionally pass a `key` property under `params` to use a different publishable key than the default to create that token. This is especially useful for applications using [Stripe Connect](https://stripe.com/connect).
 
 The following utility methods are also exposed:
 
-* [`validateCardNumber`](https://stripe.com/docs/stripe.js#card-validateCardNumber)
-* [`validateExpiry`](https://stripe.com/docs/stripe.js#card-validateExpiry)
-* [`validateCVC`](https://stripe.com/docs/stripe.js#card-validateCVC)
-* [`cardType`](https://stripe.com/docs/stripe.js#card-cardType)
+* [`validateCardNumber`](https://stripe.com/docs/stripe.js/v2#card-validateCardNumber)
+* [`validateExpiry`](https://stripe.com/docs/stripe.js/v2#card-validateExpiry)
+* [`validateCVC`](https://stripe.com/docs/stripe.js/v2#card-validateCVC)
+* [`cardType`](https://stripe.com/docs/stripe.js/v2#card-cardType)
 
 ---
 
@@ -82,12 +82,12 @@ The following utility methods are also exposed:
  
 ##### `stripe.bankAccount.createToken(bankAccount [, params])` -> `promise`
 
-Tokenizes a card using [`Stripe.bankAccount.createToken`](https://stripe.com/docs/stripe.js#bank-account-createToken).
+Tokenizes a card using [`Stripe.bankAccount.createToken`](https://stripe.com/docs/stripe.js/v2#bank-account-createToken).
 
 The following utility methods are also exposed:
 
-* [`validateRoutingNumber`](https://stripe.com/docs/stripe.js#bank-account-validateRoutingNumber)
-* [`validateAccountNumber`](https://stripe.com/docs/stripe.js#bank-account-validateAccountNumber)
+* [`validateRoutingNumber`](https://stripe.com/docs/stripe.js/v2#bank-account-validateRoutingNumber)
+* [`validateAccountNumber`](https://stripe.com/docs/stripe.js/v2#bank-account-validateAcountNumber)
 
 ---
 
@@ -103,7 +103,7 @@ Polls a bitcoin receiver using [`Stripe.bitcoinReceiver.pollReceiver`](https://s
 
 The following utility methods are also exposed:
 
-* [`cancelReceiverPoll`](https://stripe.com/docs/stripe.js#bitcoinreceiver-cancelreceiverpoll)
+* [`cancelReceiverPoll`](55)
 
 ---
 
